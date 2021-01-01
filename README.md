@@ -30,6 +30,7 @@ $ git commit -m "<commit description>"
 ```shell
 $ git branch
 $ git branch <branch-name>
+$ git branch -d <branch-name>
 ```
 
 ## Merge
