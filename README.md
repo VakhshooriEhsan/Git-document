@@ -24,6 +24,18 @@ $ git reset <file-name>
 ```shell
 $ git commit -m "<commit description>"
 ```
+### log:
+```shell
+$ git log
+```
+
+## Tag:
+### tag:
+```shell
+$ git tag
+$ git tag -a <version> -m "<message>"
+$ git tag -a <version> <commit-key> -m "<message>"
+```
 
 ## Branch
 ### branch:
@@ -51,6 +63,11 @@ $ git push origin <branch-name>
 ### pull:
 ```bash
 $ git pull origin <branch-name>
+$ git pull origin <tag-version>
+```
+### remote:
+```bash
+$ git remote add origin <origin-address>
 ```
 
 
@@ -66,4 +83,12 @@ $ git diff --staged
 ```shell
 $ git checkout -- <file-name>
 $ git checkout <branch-name>
+$ git checkout <tag-version>
+```
+
+## Show
+### show:
+```shell
+$ git show <commit-key>
+$ git show <tag-version>
 ```
