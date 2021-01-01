@@ -92,3 +92,9 @@ $ git checkout <tag-version>
 $ git show <commit-key>
 $ git show <tag-version>
 ```
+
+## Blame
+### blame:
+```shell
+$ git blame <file-name> -L<first-line>,<last-line>
+```
