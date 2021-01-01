@@ -39,6 +39,21 @@ $ git branch -d <branch-name>
 $ git merge <branch-name>
 ```
 
+## Remote
+### clone:
+```bash
+$ git clone <Git-address>
+```
+### push:
+```bash
+$ git push origin <branch-name>
+```
+### pull:
+```bash
+$ git pull origin <branch-name>
+```
+
+
 ## Different
 ### diff:
 ```shell
