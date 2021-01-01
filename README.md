@@ -1,21 +1,40 @@
 # Git-document
 
-`$ git init`
+
+## Initialization
+### init:
+```shell
+$ git init
+```
 
 
-`$ git add <file-name>`
+## Staging
+### add:
+```shell
+$ git add <file-name>
+$ git add -A
+```
+### reset:
+```shell
+$ git reset <file-name>
+```
 
-`$ git add -A`
+## Commit
+### commit
+```shell
+$ git commit -m "<commit description>"
+```
 
-`$ git diff HEAD`
+## Diff
+### dif:
+```shell
+$ git diff HEAD
+$ git diff --staged
+```
 
-`$ git diff --staged`
-
-`$ git reset <file-name>`
-
-`$ git checkout <file-name>`
-
-`$ git checkout -- <file-name>`
-
-
-`$ git commit -m "<commit description>"`
+## Movement
+### checkout
+```shell
+$ git checkout <file-name>
+$ git checkout -- <file-name>
+```
