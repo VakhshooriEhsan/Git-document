@@ -20,21 +20,34 @@ $ git reset <file-name>
 ```
 
 ## Commit
-### commit
+### commit:
 ```shell
 $ git commit -m "<commit description>"
 ```
 
-## Diff
-### dif:
+## Branch
+### branch:
+```shell
+$ git branch
+$ git branch <branch-name>
+```
+
+## Merge
+### merge:
+```shell
+$ git merge <branch-name>
+```
+
+## Different
+### diff:
 ```shell
 $ git diff HEAD
 $ git diff --staged
 ```
 
 ## Movement
-### checkout
+### checkout:
 ```shell
-$ git checkout <file-name>
 $ git checkout -- <file-name>
+$ git checkout <branch-name>
 ```
